@@ -1,4 +1,4 @@
-class Smartpfone:
+class Smartphone:
     def __init__(self, brand, model, phone_number):
         self.brand = brand
         self.model = model
