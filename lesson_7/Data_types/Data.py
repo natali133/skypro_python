@@ -1,0 +1,10 @@
+First_name = "Natali"
+Last_name = "Grigoreva"
+Address = "Sever 21"
+Email = "123@gmail.com"
+Phone_number = +79000000000
+Zip_code = "оставить пустым"
+City = 'Moscow'
+Country = "Russia"
+Job_position = "QA"
+Company = "SkyPro"
