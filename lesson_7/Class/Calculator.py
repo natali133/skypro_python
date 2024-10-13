@@ -14,10 +14,10 @@ class CalculatorPage:
         self.driver.find_element(By.ID, "delay").send_keys(delay_seconds)
 
     def sum_of_the_numbers(self):
-        self._driver.find_element(By.XPATH, '//span[contains(text(),"7")]').click()
-        self._driver.find_element(By.XPATH, '//span[contains(text(),"+")]').click()
-        self._driver.find_element(By.XPATH, '//span[contains(text(),"8")]').click()
-        self._driver.find_element(By.XPATH, '//span[contains(text(),"=")]').click()
+        self.driver.find_element(By.XPATH, '//span[contains(text(),"7")]').click()
+        self.driver.find_element(By.XPATH, '//span[contains(text(),"+")]').click()
+        self.driver.find_element(By.XPATH, '//span[contains(text(),"8")]').click()
+        self.driver.find_element(By.XPATH, '//span[contains(text(),"=")]').click()
 
     def get_result(self):
         result_element = self.driver.find_element(By.ID, "sciOutPut")

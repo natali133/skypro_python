@@ -2,7 +2,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from lesson_7.constants import Test_form_URL
-from lesson_7.Data_types,data import 
+from lesson_7.Data_types.data import *
 
 class MainPage:
     def __init__(self, browser):

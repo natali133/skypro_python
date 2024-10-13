@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 
 class DataFild:
-    def __init__(self.browser):
+    def __init_ (self.browser):
         self.browser = browser
 
     # Находим необходимые поля для заполнения
@@ -13,7 +13,7 @@ class DataFild:
         self.class_phone = (By.ID, "phone")
         self.class_zip_code = (By.ID, "zip-code")
         self.class_city = (By.ID, "city")
-        self.class_country = (By.ID, "coyntry")
+        self.class_country = (By.ID, "country")
         self.class_qob_position = (By.ID, "qob-position")
         self.class_company = (By.ID, "company")
 
