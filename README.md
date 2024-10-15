@@ -1,1 +1,0 @@
-# skypro_python
